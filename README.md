@@ -1,0 +1,3 @@
+# Unhandled Exception in Scala Setter Method
+
+This repository demonstrates a common Scala coding error: an unhandled exception thrown from a setter method. The `MyClass` class has a setter for the `value` property that throws an `IllegalArgumentException` if a negative value is attempted.  However, the code lacks exception handling, leading to a program crash when a negative value is assigned.  The solution demonstrates proper exception handling using a `try-catch` block.
